@@ -1,0 +1,7 @@
+def d (list):
+    s=[]
+    s.append(list)
+    for i in range(len(s)):
+        if type(s[i]) ==list:
+            s[i].split()
+            return s[:]
