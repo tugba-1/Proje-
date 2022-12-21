@@ -1,0 +1,8 @@
+    s=[]
+    s.append([[[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5]])
+    for i in range(len(s)):
+        if type(s[i]) ==list:
+            ss=str(s[i])
+            print(ss) 
+        else:
+            print(s[:])
