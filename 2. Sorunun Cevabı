@@ -1,0 +1,6 @@
+def reversed(r):
+    r=input()
+    #s=[[1, 2], [3, 4], [5, 6, 7]]
+    ss=[l[::-1] for l in s]
+    ss.reverse()
+    print(ss)
