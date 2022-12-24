@@ -1,3 +1,0 @@
-    s=[ 'a', ['cat'], 2], [[[3]], 'dog']
-    ss=[e for l in s for e in l]
-    ss
