@@ -1,0 +1,5 @@
+def flatten(s):
+ s=input()   
+#s= [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+ ss=[e for l in s for e in l]
+ ss
